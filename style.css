@@ -1,0 +1,75 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.background {
+    padding: 16px;
+    background-color: #1F2937;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 300px 0px 300px;
+}
+
+.links ul {
+    color: white;
+    display: flex;
+    font-size: 18px;
+    gap: 32px;
+}
+
+.container {
+    display: flex;
+    padding: 120px 300px 100px 300px;
+    justify-content: space-between
+}
+
+.thisweb {
+    font-size: 48px;
+    font-weight: bolder;
+    color: white;
+    max-width: 400px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: white;
+    max-width: 420px;
+}
+
+.button {
+    padding-top: 10px;
+}
+
+.signup {
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    border: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.sunk {
+    width: 200px;
+}
