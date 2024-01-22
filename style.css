@@ -4,22 +4,26 @@ ul {
     margin: 0;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 .logo {
     color: white;
     font-size: 24px;
     font-weight: bold;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
     padding: 0;
     margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.background {
+.firstrow {
     padding: 16px;
     background-color: #1F2937;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .header {
@@ -72,4 +76,124 @@ body {
 
 .sunk {
     width: 200px;
+}
+
+.secondrow {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 120px;
+}
+
+.secondrow p {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.boxallcontainer {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.title {
+    padding-top: 32px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882f6;
+    border-radius: 10px;
+}
+
+.boxcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    padding-top: 10px;
+    max-width: 170px;
+    font-size: 18px;
+    color: #777777;
+}
+
+
+.thirdrow {
+    background-color: #dcdcdc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 180px;
+}
+
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 850px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.credit {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fourthrow {
+    padding: 100px;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bluecontainer {
+    display: flex;
+    padding: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    width: 800px;
+    justify-content: space-around;
+}
+
+.call {
+    color: white;
+    font-weight: bold;
+}
+
+.description {
+    color: white;
+}
+
+.signupp {
+    font-size: 16px;
+    padding: 6px 15px 6px 15px;
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 6px;
+}
+
+footer {
+    padding: 32px;
+    background-color: #1F2937;
+}
+
+.copyright {
+    text-align: center;
+    color: white;
 }
